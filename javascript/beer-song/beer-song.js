@@ -1,6 +1,5 @@
 const BeerSong = function() {
   this.verse = numOfBottles => {
-    console.log("numOfBottles = ", numOfBottles);
     var bottlesLeft = "";
     if (numOfBottles === 0) {
       bottlesLeft += `No more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n`;
@@ -13,12 +12,11 @@ const BeerSong = function() {
       bottlesLeft += `${numOfBottles} bottles of beer on the wall, ${numOfBottles} bottles of beer.\nTake one down and pass it around, ${numOfBottles -
         1} bottles of beer on the wall.\n`;
     }
-
-    console.log(bottlesLeft);
     return bottlesLeft;
   };
 
   this.sing = (start, finish) => {
+    console.log({ start }, { finish });
     var song = "";
     if (finish === null) {
       finish = 0;
@@ -37,5 +35,3 @@ const BeerSong = function() {
 };
 
 module.exports = BeerSong;
-
-// '8 bottles of beer on the wall, 8 bottles of beer.\nTake one down and pass it around, 7 bottles of beer on the wall.\n'
