@@ -14,7 +14,6 @@ const BeerSong = function() {
     }
     return bottlesLeft;
   };
-
   this.sing = (start, finish) => {
     console.log({ start }, { finish });
     var song = "";
