@@ -2,7 +2,6 @@ var Cipher = require("./simple-cipher");
 
 describe("Random key cipher", function() {
   var cipher = new Cipher();
-
   it("has a key made of letters", function() {
     expect(cipher.key).toMatch(/[a-z]+/);
   });
