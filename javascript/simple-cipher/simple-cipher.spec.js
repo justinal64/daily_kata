@@ -2,7 +2,6 @@ var Cipher = require("./simple-cipher");
 
 describe("Random key cipher", function() {
   var cipher = new Cipher();
-
   it("has a key made of letters", function() {
     expect(cipher.key).toMatch(/[a-z]+/);
   });
@@ -18,7 +17,7 @@ describe("Random key cipher", function() {
     expect(cipher.decode(cipher.key.substr(0, 10))).toEqual("aaaaaaaaaa");
   });
 
-  xit("is reversible", function() {
+  it("is reversible", function() {
     var plaintext = "abcdefghij";
     expect(cipher.decode(cipher.encode(plaintext))).toEqual(plaintext);
   });
