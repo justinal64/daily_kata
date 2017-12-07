@@ -191,16 +191,16 @@
           "build/netcoreapp1.0/Microsoft.Net.Test.Sdk.targets": {}
         }
       },
-      "Microsoft.NETCore.App/1.0.4": {
+      "Microsoft.NETCore.App/1.0.5": {
         "type": "package",
         "dependencies": {
           "Libuv": "1.9.1",
           "Microsoft.CSharp": "4.0.1",
           "Microsoft.CodeAnalysis.CSharp": "1.3.0",
           "Microsoft.CodeAnalysis.VisualBasic": "1.3.0",
-          "Microsoft.NETCore.DotNetHostPolicy": "1.0.3",
+          "Microsoft.NETCore.DotNetHostPolicy": "1.0.5",
           "Microsoft.NETCore.Platforms": "1.0.2",
-          "Microsoft.NETCore.Runtime.CoreCLR": "1.0.6",
+          "Microsoft.NETCore.Runtime.CoreCLR": "1.0.7",
           "Microsoft.VisualBasic": "10.0.1",
           "NETStandard.Library": "1.6.0",
           "System.Buffers": "4.0.0",
@@ -217,10 +217,10 @@
           "System.Linq.Expressions": "4.1.1",
           "System.Linq.Parallel": "4.0.1",
           "System.Linq.Queryable": "4.0.1",
-          "System.Net.Http": "4.1.1",
+          "System.Net.Http": "4.1.2",
           "System.Net.NameResolution": "4.0.0",
           "System.Net.Requests": "4.0.11",
-          "System.Net.Security": "4.0.0",
+          "System.Net.Security": "4.0.1",
           "System.Net.WebHeaderCollection": "4.0.1",
           "System.Numerics.Vectors": "4.1.1",
           "System.Reflection.DispatchProxy": "4.0.1",
@@ -236,7 +236,8 @@
           "System.Threading.Tasks.Extensions": "4.0.0",
           "System.Threading.Tasks.Parallel": "4.0.1",
           "System.Threading.Thread": "4.0.0",
-          "System.Threading.ThreadPool": "4.0.10"
+          "System.Threading.ThreadPool": "4.0.10",
+          "runtime.native.System.Security.Cryptography": "4.0.1"
         },
         "compile": {
           "lib/netcoreapp1.0/_._": {}
@@ -248,7 +249,7 @@
       "Microsoft.NETCore.DotNetHost/1.0.1": {
         "type": "package"
       },
-      "Microsoft.NETCore.DotNetHostPolicy/1.0.3": {
+      "Microsoft.NETCore.DotNetHostPolicy/1.0.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.DotNetHostResolver": "1.0.1"
@@ -260,7 +261,7 @@
           "Microsoft.NETCore.DotNetHost": "1.0.1"
         }
       },
-      "Microsoft.NETCore.Jit/1.0.6": {
+      "Microsoft.NETCore.Jit/1.0.7": {
         "type": "package"
       },
       "Microsoft.NETCore.Platforms/1.0.2": {
@@ -272,14 +273,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.Runtime.CoreCLR/1.0.6": {
+      "Microsoft.NETCore.Runtime.CoreCLR/1.0.7": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Jit": "1.0.6",
+          "Microsoft.NETCore.Jit": "1.0.7",
           "Microsoft.NETCore.Windows.ApiSets": "1.0.1"
         }
       },
-      "Microsoft.NETCore.Targets/1.0.1": {
+      "Microsoft.NETCore.Targets/1.0.3": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -739,11 +740,11 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "runtime.native.System.Security.Cryptography/4.0.0": {
+      "runtime.native.System.Security.Cryptography/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.0.1",
-          "Microsoft.NETCore.Targets": "1.0.1"
+          "Microsoft.NETCore.Platforms": "1.0.2",
+          "Microsoft.NETCore.Targets": "1.0.3"
         },
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -1485,7 +1486,7 @@
           "lib/netstandard1.3/System.Linq.Queryable.dll": {}
         }
       },
-      "System.Net.Http/4.1.1": {
+      "System.Net.Http/4.1.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.2",
@@ -1604,10 +1605,10 @@
           }
         }
       },
-      "System.Net.Security/4.0.0": {
+      "System.Net.Security/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Microsoft.NETCore.Platforms": "1.0.2",
           "Microsoft.Win32.Primitives": "4.0.1",
           "System.Collections": "4.0.11",
           "System.Collections.Concurrent": "4.0.12",
@@ -2940,15 +2941,15 @@
         "microsoft.net.test.sdk.nuspec"
       ]
     },
-    "Microsoft.NETCore.App/1.0.4": {
-      "sha512": "ePI0yQzI77xtc/VNv3rlZ6VtkD1bYmSQNmNrQeW6kplEQk2W70nVBIoTsQdhr4DSJeTnG6repLvCxFl0tqWLVQ==",
+    "Microsoft.NETCore.App/1.0.5": {
+      "sha512": "5VN1YD5n36mKWPr9W/RkbLNlIksaOChuUy4OUA4rmdrzF6BR098gMsytf/Ay9GC+FkJrxLzNT3bafZawDDvMnA==",
       "type": "package",
-      "path": "microsoft.netcore.app/1.0.4",
+      "path": "microsoft.netcore.app/1.0.5",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netcoreapp1.0/_._",
-        "microsoft.netcore.app.1.0.4.nupkg.sha512",
+        "microsoft.netcore.app.1.0.5.nupkg.sha512",
         "microsoft.netcore.app.nuspec"
       ]
     },
@@ -2964,14 +2965,14 @@
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.DotNetHostPolicy/1.0.3": {
-      "sha512": "JOsrOKqssAAOWA049WrSVJN6T1fNvTtrN8rWovfOP++XA/pfvy1aSAkh6iIWPewQvEjc/px8pi0OZ32bVadE8Q==",
+    "Microsoft.NETCore.DotNetHostPolicy/1.0.5": {
+      "sha512": "v3P7qbwGfds5Nv5uo0E+1I9akAzIVFCedvS6BMYkCwWIrB4Au4UQ38Gag8+lKqJhZChHRVdsefuhgVbXI1QhLg==",
       "type": "package",
-      "path": "microsoft.netcore.dotnethostpolicy/1.0.3",
+      "path": "microsoft.netcore.dotnethostpolicy/1.0.5",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "microsoft.netcore.dotnethostpolicy.1.0.3.nupkg.sha512",
+        "microsoft.netcore.dotnethostpolicy.1.0.5.nupkg.sha512",
         "microsoft.netcore.dotnethostpolicy.nuspec",
         "runtime.json"
       ]
@@ -2988,14 +2989,14 @@
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.Jit/1.0.6": {
-      "sha512": "qCFWrkKI0r5KjQmGLk0c4/x0oNx+hqi+z7uwVrMpmTJfb7/8sw7Nj+cuBK1rkutKcr/AfWbjdB6+j7ZgssMIEw==",
+    "Microsoft.NETCore.Jit/1.0.7": {
+      "sha512": "zNMMj+baa2J484tw5HtU9gQgddxyeqAI0BHnluBM48ofKh+hGV2XhoimOuMaSv4lV+x7qMgiKKj7elC1PJYyug==",
       "type": "package",
-      "path": "microsoft.netcore.jit/1.0.6",
+      "path": "microsoft.netcore.jit/1.0.7",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "microsoft.netcore.jit.1.0.6.nupkg.sha512",
+        "microsoft.netcore.jit.1.0.7.nupkg.sha512",
         "microsoft.netcore.jit.nuspec",
         "runtime.json"
       ]
@@ -3013,28 +3014,28 @@
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.Runtime.CoreCLR/1.0.6": {
-      "sha512": "m91Lc//jebDV67c7CNDNrhZQuFHuEW+BNLesW0Os2eeSCoXbiFX2rE7DCzhF6bpSCzw5iDyLgqARCPiAn2LiSQ==",
+    "Microsoft.NETCore.Runtime.CoreCLR/1.0.7": {
+      "sha512": "qcf82TIjO+AYOsTV4zo4WqkCcK/QR5Oml6XHdEl00JUZDrvFzcIA3GpA6uIDK6XejxURfBPmHPI4AsfD8pNPag==",
       "type": "package",
-      "path": "microsoft.netcore.runtime.coreclr/1.0.6",
+      "path": "microsoft.netcore.runtime.coreclr/1.0.7",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "microsoft.netcore.runtime.coreclr.1.0.6.nupkg.sha512",
+        "microsoft.netcore.runtime.coreclr.1.0.7.nupkg.sha512",
         "microsoft.netcore.runtime.coreclr.nuspec",
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.Targets/1.0.1": {
-      "sha512": "EKNLMi0pkB9joFRotoX9AMRqh6ah3IA+JtsQWxClhN54aYjkYUH0mbog4ZayhQjFcNFuC3sIQk9IzbbNFpB44g==",
+    "Microsoft.NETCore.Targets/1.0.3": {
+      "sha512": "f8FvBeRXTdf4pzgvVOWUpEIZRUYZ4k8a2n3eTOfb1Nu7+5Gj+F7rQ1X6tL57yN+6rWLG1aHmKI9CBiV6bmws2A==",
       "type": "package",
-      "path": "microsoft.netcore.targets/1.0.1",
+      "path": "microsoft.netcore.targets/1.0.3",
       "files": [
-        "Microsoft.NETCore.Targets.1.0.1.nupkg.sha512",
-        "Microsoft.NETCore.Targets.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
+        "microsoft.netcore.targets.1.0.3.nupkg.sha512",
+        "microsoft.netcore.targets.nuspec",
         "runtime.json"
       ]
     },
@@ -3360,15 +3361,15 @@
         "runtime.native.system.net.security.nuspec"
       ]
     },
-    "runtime.native.System.Security.Cryptography/4.0.0": {
-      "sha512": "2CQK0jmO6Eu7ZeMgD+LOFbNJSXHFVQbCJJkEyEwowh1SCgYnrn9W9RykMfpeeVGw7h4IBvYikzpGUlmZTUafJw==",
+    "runtime.native.System.Security.Cryptography/4.0.1": {
+      "sha512": "OTTGeM6Ui56g51Tupv45PGg4LuaOJfPoONTEu0yk//s1VPmOuS5N2LS0Dv21zFmNtfozCQouQtHBE+VKScx9Iw==",
       "type": "package",
-      "path": "runtime.native.system.security.cryptography/4.0.0",
+      "path": "runtime.native.system.security.cryptography/4.0.1",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
-        "runtime.native.system.security.cryptography.4.0.0.nupkg.sha512",
+        "runtime.native.system.security.cryptography.4.0.1.nupkg.sha512",
         "runtime.native.system.security.cryptography.nuspec"
       ]
     },
@@ -5272,10 +5273,10 @@
         "system.linq.queryable.nuspec"
       ]
     },
-    "System.Net.Http/4.1.1": {
-      "sha512": "339fGjz+9Xwc3tnQT8PSmrdptER4Xj5Z5qD2LuK8rTbbq7Lkq20tD2kkMtxzIN51ne6OTNJfdVZe3iDcGmxnPQ==",
+    "System.Net.Http/4.1.2": {
+      "sha512": "DJOCj55d5HhTjuje3f07AW7ExBLP1KmjJbkq/v4kn+wjikratd3n7IZOnBhiHu0/QdwamiBhMiQ0hhozOQwB9Q==",
       "type": "package",
-      "path": "system.net.http/4.1.1",
+      "path": "system.net.http/4.1.2",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -5348,7 +5349,7 @@
         "runtimes/win/lib/net46/System.Net.Http.dll",
         "runtimes/win/lib/netcore50/System.Net.Http.dll",
         "runtimes/win/lib/netstandard1.3/System.Net.Http.dll",
-        "system.net.http.4.1.1.nupkg.sha512",
+        "system.net.http.4.1.2.nupkg.sha512",
         "system.net.http.nuspec"
       ]
     },
@@ -5550,10 +5551,10 @@
         "system.net.requests.nuspec"
       ]
     },
-    "System.Net.Security/4.0.0": {
-      "sha512": "uM1JaYJciCc2w7efD6du0EpQ1n5ZQqE6/P43/aI4H5E59qvP+wt3l70KIUF/Ha7NaeXGoGNFPVO0MB80pVHk2g==",
+    "System.Net.Security/4.0.1": {
+      "sha512": "/Npe5rBq3mSDu9tPN8hKh/3SYcmg9IHRQzrriND9bFBOEGQlKq20i4vxPZhzFfwfoY8WqMdEigWaHpTALZrXGg==",
       "type": "package",
-      "path": "system.net.security/4.0.0",
+      "path": "system.net.security/4.0.1",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -5586,7 +5587,7 @@
         "runtimes/win/lib/net46/System.Net.Security.dll",
         "runtimes/win/lib/netstandard1.3/System.Net.Security.dll",
         "runtimes/win7/lib/netcore50/_._",
-        "system.net.security.4.0.0.nupkg.sha512",
+        "system.net.security.4.0.1.nupkg.sha512",
         "system.net.security.nuspec"
       ]
     },
@@ -8187,7 +8188,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.0": [
       "Microsoft.NET.Test.Sdk >= 15.0.0",
-      "Microsoft.NETCore.App >= 1.0.4",
+      "Microsoft.NETCore.App >= 1.0.5",
       "xunit >= 2.2.0",
       "xunit.runner.visualstudio >= 2.2.0"
     ]
@@ -8220,7 +8221,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "1.0.4"
+            "version": "1.0.5"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
